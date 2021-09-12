@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Diplomes
+{% endblock %}
+
+{% block main %}
+
+<h1 class="name">Diplomes</h1>
+<div class="boxDiplomes">
+  <div class="backgroundDiplomes">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/tronic247/material/dist/css/material.min.css" rel="stylesheet" />
+
+<form action="#!" id="main" class="p-4">
+    <h1 class="h4">Login</h1>
+    <div class="m-4"></div>
+    <label class="textfield outlined posForm">
+      <input class="position-relative" placeholder=" " required="" autofocus="">
+      <span>Username</span>
+    </label>
+    <div class="m-2"></div>
+    <label class="textfield outlined">
+      <input placeholder=" " type="password" required="">
+      <span>Password</span>
+    </label>
+    <div class="m-2"></div>
+    <label class="checkbox">
+      <input type="checkbox">
+      <span>Remember Me</span>
+    </label>
+      <div class="m-4"></div>
+      <button type="submit" id="loginbtn">Login</button>
+    </form>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/tronic247/material/dist/js/material.min.js"></script>
+  </div>
+</div>
+{% endblock %}

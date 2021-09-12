@@ -1,0 +1,700 @@
+html, body{
+	height: 100%;
+}
+
+nav .navbar-brand
+{
+    /* size for brand */
+}
+
+/* Colors for brand */
+nav .navbar-brand .blue
+{
+    color: #537fbe;
+}
+nav .navbar-brand .red
+{
+    color: #ea433b;
+}
+nav .navbar-brand .yellow
+{
+    color: #f5b82e;
+}
+nav .navbar-brand .green
+{
+    color: #2e944b;
+}
+
+main .form-control
+{
+    /* Center form controls */
+
+
+    /* Override Bootstrap's 100% width for form controls */
+}
+
+main
+{
+    /* Scroll horizontally as needed */
+    overflow-x: auto;
+
+    /* Center contents */
+    
+}
+
+main img
+{
+    /* Constrain images on small screens */
+    max-width: 100%;
+}
+
+@media (min-width: 900px) 
+{
+  nav .img {
+  border-radius: 50% 20% / 10% 40%;
+  width: 9em;
+  height: auto;
+  opacity: 0.76;
+  align-items: center;
+  }
+}
+
+  @media (max-width: 400px) 
+  {
+	nav .img {
+    border-radius: 50% 20% / 10% 40%;
+    width: 7em;
+    height: auto;
+    opacity: 0.76;
+	align-items: center;
+	}
+}
+
+  @media (min-width: 400px)
+  {
+	nav .img {
+    border-radius: 50% 20% / 10% 40%;
+    max-width: 8em;
+    height: auto;
+    opacity: 0.76;
+	align-items: center;
+	}
+}
+
+body
+{
+    background-color: black;
+    height: 100%;
+}
+
+#particles-js
+{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+
+  }
+  
+  @media (min-width: 992px)
+  {
+    .navbar li {
+        margin-left : 1em;
+        margin-right : 1em;
+		align-items: center;    
+    }
+  }
+
+  @media (max-width: 992px)
+  {
+    .navbar li {
+        text-align: center;    
+    }
+  }  
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+	  
+  @media (max-width: 400px)
+  {
+	main .name
+	{
+		color: aliceblue;
+		font-family: 'Fredoka One', cursive;
+		font-size: 42px;
+		margin-bottom: 30px;	
+		text-align: center;
+		position: relative;
+	}
+  }
+
+  @media (min-width: 400px)
+  {
+	main .name
+	{
+		color: aliceblue;
+		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		font-size: 45px;
+		margin-bottom: 30px;
+		text-align: center;
+		position: relative;
+	}
+  }
+
+/* Début CSS animation écriture */
+.wrapper {
+    /*This part is important for centering*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media (min-width: 992px)
+  {
+    .typing-demo {
+        width: 38ch;
+        animation: typing 5s steps(60), blink .5s step-end infinite alternate;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 4px flex;
+        font-family: monospace;
+        font-size: 2em;
+        color: rgb(152, 159, 173);
+		text-align: center;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 992px)
+  {
+    .typing-demo {
+        width: 38ch;
+        animation: typing 5s steps(60), blink .5s step-end infinite alternate;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 4px flex;
+        font-family: monospace;
+        font-size: 2em;
+        color: rgb(152, 159, 173);
+		text-align: center;
+    }
+  }  
+
+  @media (max-width: 767px)
+  {
+    .typing-demo {
+        width: 13ch;
+        animation: typing 5s steps(60), blink .5s step-end infinite alternate;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 4px flex;
+        font-family: monospace;
+        font-size: 2em;
+        color: rgb(152, 159, 173);
+		text-align: center;
+    }
+  }  
+
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+/* Fin CSS animation écriture */
+
+/* Début CSS animation box index */
+body{
+	margin: 0;
+	padding: 0;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+@media (min-width: 769px)
+{
+  .centerBox{
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  height: 550px;
+  }
+}
+
+  @media (max-width: 769px)
+  {
+	.centerBox{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 430px;
+	}
+  }
+
+  @media (max-width: 769px)
+  {
+	.categoryWrapper{
+		height: 370px;
+		width: 279px;
+		justify-content: center;
+		position: relative;
+		display: grid;
+		top: 0;
+		left: 0;
+		right:0;
+		bottom: 0;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a29ca9+0,95909b+99 */
+		background-color: rgba(162, 156, 169, 0.35);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a29ca9', endColorstr='#95909b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+		border-radius: 5%;
+		backdrop-filter: blur(2px);
+	}
+  }
+
+  @media (min-width: 769px)
+  {
+	.categoryWrapper{
+		height: 460px;
+		width: 350px;
+		background: url("http://ohlookawebsite.com/bathroomtestfull.jpg") no-repeat center center;
+		display: flex;
+		justify-content: center;
+		position: relative;
+	}
+  }
+
+.categoryWrapper:after{
+	position: absolute;
+	top:0;
+	left: 0;
+	right:0;
+	bottom: 0;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a29ca9+0,95909b+99 */
+background: #a29ca9; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #a29ca9 0%, #95909b 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #a29ca9 0%,#95909b 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #a29ca9 0%,#95909b 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a29ca9', endColorstr='#95909b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	content: '';
+	opacity: 0;
+		-webkit-transition: opacity 0.9s ease 0s;
+		border-radius: 5%;
+		filter: blur(2px);	 
+}
+
+.categoryWrapper:hover:after{
+	opacity: 0.35;
+}
+
+.categoryWrapper img{
+	width: 65%;
+	height: auto;
+	position: absolute;
+	z-index: 10;
+	border-radius: 50%;
+	margin-top: 10%;
+	opacity: 0.8;
+	justify-self: center;
+}
+
+.categoryWrapper h1{
+	color:white;
+	font-size: 50px;
+	letter-spacing: 2px;
+	-webkit-transition: all 0.15s ease 0s; 
+	position: absolute;
+	justify-self: center;
+	z-index: 10;
+	margin-top: 85%;
+}
+
+.categoryWrapper:hover h1{
+	transform: translateY(-15px);
+}
+
+@media(max-width: 769px){
+	.categoryWrapper button{
+		position: absolute;
+		justify-self: center;
+		transform: translatey(60px);
+		border: none;
+		width: 230px;
+		height: 45px;
+		font-size: 20px;
+		padding: 0;
+		margin: 0;
+		outline: none;
+		z-index: 10;
+		margin-top: 87%;
+		background-image: url("/static/more-info.png");
+		background-position: center;
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-color: transparent;
+		border: solid;
+		border-width: 2px;
+		border-color: white;
+	}
+}
+
+  @media(min-width: 769px){
+	.categoryWrapper button{
+		position: absolute;
+		transform: translatey(60px);
+		-webkit-appearance: none;
+		border: none;
+		background: none;
+		color:white;
+		width: 250px;
+		height:50px;
+		font-size: 20px;
+		padding: 0;
+		margin: 0;
+		outline: none;
+		z-index: 10;
+		margin-top: 87%;
+	}
+  }
+
+.categoryWrapper button span{
+	display: block;
+	position: relative;
+	line-height: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+
+.categoryWrapper button > span:after{
+	content:'';
+	position: absolute;
+	top:0;
+	left: 50%;
+	width: 20px;
+	height: 0;
+	
+	border: 1px solid white;
+	border-left: none;
+	border-bottom: none;
+	
+	    transition: height 0.15s ease-out, width 0.15s ease-out 0.15s;
+}
+
+.categoryWrapper:hover button > span:after{
+	width: calc(50% - 1px);
+	height: calc(100% - 2px);
+	transition: width 0.15s ease-out, height 0.15s ease-out 0.15s;
+}
+
+.categoryWrapper button > span:before{
+	content:'';
+	position: absolute;
+	top:0;
+	right: 50%;
+	width: 20px;
+	height: 0;
+	
+	border: 1px solid white;
+	border-right: none;
+	border-bottom: none;
+	
+	    transition: height 0.15s ease-out, width 0.15s ease-out 0.15s;
+}
+
+.categoryWrapper:hover button > span:before{
+	width: calc(50% - 1px);
+	height: calc(100% - 2px);
+	transition: width 0.15s ease-out, height 0.15s ease-out 0.15s;
+}
+
+.categoryWrapper button > span > span:before{
+	content:'';
+	position: absolute;
+	bottom:0;
+	right: 0%;
+	width: 1px;
+	height: 1px;
+	opacity: 0;
+	
+}
+
+.categoryWrapper:hover button > span > span:before{
+	opacity: 1;
+	border-bottom: 1px solid white;
+	width: calc(50%);
+	height: 1px;
+	transition: opacity 0s ease-out 0.29s, width 0.15s ease-out 0.3s;
+}
+
+.categoryWrapper button > span > span:after{
+	content:'';
+	position: absolute;
+	bottom:0;
+	left: 0%;
+	width: 1px;
+	height: 1px;
+	opacity: 0;
+	
+}
+
+.categoryWrapper:hover button > span > span:after{
+	opacity: 1;
+	border-bottom: 1px solid white;
+	width: calc(50%);
+	height: 1px;
+	transition: opacity 0s ease-out 0.29s, width 0.15s ease-out 0.3s;
+}
+
+.categoryWrapper button > span > span > span{
+	transition: color 0.15s ease-out 0.3s;
+	color: transparent;
+}
+
+.categoryWrapper:hover button > span > span > span{
+	color:white;
+}
+
+.categoryWrapper button > span > span > span:after{
+	position: absolute;
+	top:0;left:0;right:0;bottom:0;
+	color:#1f2e4d;
+	content: attr(data-attr-span);
+	width: 0%;
+	height: 100%;
+	background:white;
+	white-space: nowrap;
+	text-align: center;
+	margin: auto;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	transition: width 0.2s;
+}
+
+.categoryWrapper button:hover > span > span > span:after{
+	width: 100%;
+}
+/* Fin CSS animation box index*/
+
+#contenu{
+	min-height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	color: white;
+	text-align: center;
+  }
+
+@media (min-width: 769px)
+{
+  .posForm{
+	opacity: 0.75;
+  }
+}
+
+@media (max-width: 769px)
+{
+  .posForm{
+	opacity: 0.75;
+	width: 180px;
+	height: 35px;
+  }
+}
+
+/* Debut css input */
+
+@media (min-width: 769px)
+{
+  .boxDiplomes{
+	  display: flex;
+	  justify-content: center;
+	  height: 550px;
+  }
+}
+
+  @media (max-width: 769px)
+  {
+	.boxDiplomes{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 50%;
+	}
+  }
+
+  @media (max-width: 769px)
+  {
+	.backgroundDiplomes{
+		height: 470px;
+		width: 279px;
+		justify-content: center;
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		top: 0;
+		left: 0;
+		right:0;
+		bottom: 0;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a29ca9+0,95909b+99 */
+		background-color: rgba(162, 156, 169, 0.35);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a29ca9', endColorstr='#95909b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+		border-radius: 5%;
+		backdrop-filter: blur(2px);
+	}
+  }
+
+  @media (min-width: 769px)
+  {
+	.backgroundDiplomes{
+		height: 530px;
+		width: 800px;
+		position: relative;
+		display: flex;
+		justify-content: center;
+		top: 0;
+		left: 0;
+		right:0;
+		bottom: 0;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a29ca9+0,95909b+99 */
+		background-color: rgba(162, 156, 169, 0.35);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a29ca9', endColorstr='#95909b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+		border-radius: 5%;
+		backdrop-filter: blur(2px);
+	}
+  }
+
+  @media (max-width: 769px)
+  {
+	.titlePage
+    {
+	  color: aliceblue;
+	  font-family: 'Fredoka One', cursive;
+	  font-size: 28px;
+	  margin-bottom: 15%;
+	  text-align: center;
+	  position: relative;
+	  
+	}
+  }
+
+  @media (min-width: 769px)
+  {
+  	.titlePage
+    {
+	  color: aliceblue;
+	  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	  font-size: 45px;
+	  margin-bottom: 2vmax;
+	  text-align: center;
+	  position: relative;
+    }
+  }
+
+  @media (max-width: 769px)
+  {  
+  	.inputRow{
+	  	display: flex;
+		flex-wrap: wrap;
+	  	width: 100%;
+		justify-content: center;	  	
+  	}
+  }
+
+  @media (min-width: 769px)
+  {  
+  .inputRow{
+	  display: flex;
+	  width: 100%;
+	  height: auto;
+	  flex-direction: row;
+	  justify-content: space-around;
+	  margin-bottom: -120px;
+  	}
+  }
+
+  @media (max-width: 769px)
+  {   
+	.inputCenter{
+		position: relative;
+		display: grid;
+		width: 100%;
+		height: auto;
+		justify-content: center;
+		align-items: baseline;
+	}
+  }
+
+  @media (min-width: 769px)
+  {   
+	.inputCenter{
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		height: auto;
+		align-items: center;
+		justify-content: space-around;
+		flex-direction: column;	
+	}
+  }
+
+  @media (max-width: 769px)
+  {     
+	.textArea{
+		width: 180px;
+	}
+  }
+
+  @media (min-width: 769px)
+  {     
+	.textArea{
+		width: 400px;
+	}
+  }
+
+  @media (max-width: 769px)
+  { 
+	.inputColumn{
+		display: grid;
+		justify-content: center;
+	}
+  }
+
+  @media (min-width: 769px)
+  { 
+	.inputColumn{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+  }
+
+  @media (max-width:769px)
+  {
+	.recaptchaSize{
+		transform: scale(75%);
+		display: flex;
+		justify-content: center;
+		margin-top: 12%;
+		margin-bottom: 20%;
+	}
+  }
+
+  @media (min-width:769px)
+  {
+	.recaptchaSize{
+		
+	}
+  }  
+	  
+/* Fin css input */
