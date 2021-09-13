@@ -677,7 +677,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a29ca9', end
   @media (max-width:769px)
   {
 	.recaptchaSize{
-		transform: scale(72%);
+		transform: scale(67%);
 		display: flex;
 		justify-content: center;
 		margin-top: 5%;
