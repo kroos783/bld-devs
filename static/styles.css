@@ -111,14 +111,13 @@ body
     }
   }  
 
-  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-	  
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
   @media (max-width: 400px)
   {
 	main .name
 	{
 		color: aliceblue;
-		font-family: 'Fredoka One', cursive;
+		font-family: 'Press Start 2P', cursive;
 		font-size: 42px;
 		margin-bottom: 30px;	
 		text-align: center;
@@ -131,7 +130,7 @@ body
 	main .name
 	{
 		color: aliceblue;
-		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		font-family: 'Press Start 2P', cursive;
 		font-size: 45px;
 		margin-bottom: 30px;
 		text-align: center;
@@ -560,7 +559,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a29ca9', end
 		background-color: rgba(162, 156, 169, 0.35);
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a29ca9', endColorstr='#95909b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 		border-radius: 5%;
-		backdrop-filter: blur(2px);
 	}
   }
 
