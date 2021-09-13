@@ -107,7 +107,8 @@ body
   @media (max-width: 992px)
   {
     .navbar li {
-        text-align: center;    
+        text-align: center;
+		font-size: small;    
     }
   }  
 
@@ -702,7 +703,31 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a29ca9', end
 
 @media (min-width: 769px) {
 	.footerSize{
-		font-size: xx-small;
+		font-size: x-small;
 	}
 }
 /* fin css footer */
+
+/* début css bouton contact*/
+
+.btn-grad {background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5  51%, #00d2ff  100%)}
+.btn-grad {
+   padding: 0px 15px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+   opacity: 0.90;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+/* fin css bouton contact */
