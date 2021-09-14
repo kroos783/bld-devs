@@ -260,7 +260,6 @@ body{
 	.categoryWrapper{
 		height: 460px;
 		width: 350px;
-		background: url("http://ohlookawebsite.com/bathroomtestfull.jpg") no-repeat center center;
 		display: flex;
 		justify-content: center;
 		position: relative;
