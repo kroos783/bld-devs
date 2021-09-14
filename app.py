@@ -31,8 +31,8 @@ app.config['MAIL_USE_SSL'] = True
 app.config['MAIL_DEFAULT_SENDER'] = 'bld.devs@gmail.com'
 
 app.config['RECAPTCHA_USE_SSL']= False
-app.config['RECAPTCHA_PUBLIC_KEY']='6Lee_kscAAAAAA_zaw-IFjeDrJywECp97I6V0lhI'
-app.config['RECAPTCHA_PRIVATE_KEY']='6Lee_kscAAAAAMvyhs6chy_hUFUypkYWTWYrXZzW'
+app.config['RECAPTCHA_PUBLIC_KEY']='6LeIwmgcAAAAAIqzcLYo9AjypZn8nCJ2sUKzqaDz'
+app.config['RECAPTCHA_PRIVATE_KEY']='6LeIwmgcAAAAAL06WFUEMcabDEvGQkxzIN0eUgcg'
 app.config['RECAPTCHA_OPTIONS']= {'theme':'black'}
 
 mail.init_app(app)

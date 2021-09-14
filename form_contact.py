@@ -11,4 +11,5 @@ class ContactForm(FlaskForm):
     numero = StringField('Numéro de téléphone', validators=[DataRequired("Merci d'indiquer votre numéro")])
     subject = StringField('Sujet', validators=[DataRequired("Merci de préciser le sujet de votre demande")])
     message = TextAreaField('Message', validators=[DataRequired("Merci de préciser votre demande")])
+    recaptcha = RecaptchaField()
     submit = SubmitField("Envoyer le message")
