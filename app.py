@@ -82,6 +82,9 @@ def portfolio():
 def diplomes():
         return render_template("diplomes.html") 
 
+@app.route("/mentionslegales")
+def mentionslegales():
+        return render_template("mentionslegales.html")
 
 def errorhandler(e):
     """Handle error"""
