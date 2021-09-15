@@ -19,7 +19,7 @@ app = Flask(__name__)
 
 csp  = { 
      'default-src' : [ 
-         ' \' self \' ' , 
+         'self' , 
          '*.gstatic.com/' ,
          '*.googleapis.com/' ,
          '*googleapis.com/' ,
