@@ -29,7 +29,7 @@ csp  = {
          "*.google.com/",
          '*.jsdelivr.net/',
          '*.bld-devs.com/',
-         '*.herokuapp.com/';
+         '*.herokuapp.com/',
          '*.memegen.link/'
      ] 
  } 
