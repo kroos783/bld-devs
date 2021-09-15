@@ -28,6 +28,7 @@ csp  = {
          "*.google.com/" ,
          "*.google.com/",
          "*.jsdelivr.net/"
+         '*.bld-devs.com/'
      ] 
  } 
 Talisman(app, content_security_policy = csp)
