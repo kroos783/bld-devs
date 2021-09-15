@@ -30,7 +30,7 @@ csp  = {
          '*.jsdelivr.net/',
          '*.bld-devs.com/',
          '*.herokuapp.com/',
-         '*.memegen.link/'
+         '*.memegen.link/',
          '*.imgur.com/CsCgN7Ll.png'
      ] 
  } 
