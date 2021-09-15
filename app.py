@@ -30,8 +30,7 @@ csp  = {
          '*.jsdelivr.net/',
          '*.bld-devs.com/',
          '*.herokuapp.com/',
-         '*.memegen.link/',
-         '*.imgur.com/'
+         'http://memegen.link/custom/404/Not-Found.jpg?alt=https://i.imgur.com/CsCgN7Ll.png'
      ] 
  } 
 Talisman(app, content_security_policy = csp)
