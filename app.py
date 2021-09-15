@@ -17,7 +17,7 @@ mail = Mail()
 app = Flask(__name__)
 
 
-csp  = { 
+"""csp  = { 
      'default-src' : [ 
          "'unsafe-inline'" , 
          '*.gstatic.com/' ,
@@ -33,7 +33,7 @@ csp  = {
          'http://memegen.link/custom/404/Not-Found.jpg?alt=https://i.imgur.com/CsCgN7Ll.png'
      ] 
  } 
-Talisman(app, content_security_policy = csp)
+Talisman(app, content_security_policy = csp)"""
 
 # Ensure templates are auto-reloaded
 app.config["TEMPLATES_AUTO_RELOAD"] = True
