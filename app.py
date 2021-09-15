@@ -27,7 +27,7 @@ csp  = {
          '*.cloudflare.com/' ,
          "*.google.com/" ,
          "*.google.com/",
-         "*.jsdelivr.net/"
+         '*.jsdelivr.net/',
          '*.bld-devs.com/'
      ] 
  } 
