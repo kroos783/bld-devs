@@ -22,7 +22,7 @@ csp  = {
          "'unsafe-inline'" , 
          '*.gstatic.com/' ,
          '*.googleapis.com/' ,
-         '*googleapis.com/' ,
+         '*.googleapis.com/' ,
          '*.jquery.com/' ,
          '*.cloudflare.com/' ,
          "*.google.com/" ,
