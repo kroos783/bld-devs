@@ -9,11 +9,13 @@ from helpers import apology
 from flask_mail import Mail, Message
 
 from form_contact import ContactForm, csrf
+from flask_talisman import Talisman
 
 mail = Mail()
 
 # Configure application
 app = Flask(__name__)
+Talisman(app)
 
 # Ensure templates are auto-reloaded
 app.config["TEMPLATES_AUTO_RELOAD"] = True
