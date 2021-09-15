@@ -19,7 +19,16 @@ app = Flask(__name__)
 
 csp  = { 
      'default-src' : [ 
-         "'unsafe-inline'" 
+         "'unsafe-inline'" , 
+         '*.gstatic.com/' ,
+         '*.googleapis.com/' ,
+         '*googleapis.com/' ,
+         '*.jquery.com/' ,
+         '*.cloudflare.com/' ,
+         "*.google.com/" ,
+         "*.google.com/",
+         '*.jsdelivr.net/',
+         '*.bld-devs.com/'
      ] 
  } 
 Talisman(app, content_security_policy = csp)
