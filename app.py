@@ -15,7 +15,20 @@ mail = Mail()
 
 # Configure application
 app = Flask(__name__)
-Talisman(app)
+
+
+csp  = { 
+     'default-src' : [ 
+         ' \' self \' ' , 
+         '*.trusted.com'
+         '*.googleapis.com/'
+         '*googleapis.com/' 
+         '*.jquery.com/'
+         '*.cloudflare.com/'
+         "*.google.com/"
+     ] 
+ } 
+Talisman(app, content_security_policy = csp)
 
 # Ensure templates are auto-reloaded
 app.config["TEMPLATES_AUTO_RELOAD"] = True
