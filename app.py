@@ -31,7 +31,7 @@ csp  = {
          '*.bld-devs.com/',
          '*.herokuapp.com/',
          '*.memegen.link/',
-         '*.imgur.com/CsCgN7Ll.png'
+         '*.imgur.com/'
      ] 
  } 
 Talisman(app, content_security_policy = csp)
