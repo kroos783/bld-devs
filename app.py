@@ -20,12 +20,12 @@ app = Flask(__name__)
 csp  = { 
      'default-src' : [ 
          ' \' self \' ' , 
-         '*.trusted.com'
-         '*.googleapis.com/'
-         '*googleapis.com/' 
-         '*.jquery.com/'
-         '*.cloudflare.com/'
-         "*.google.com/"
+         '*.trusted.com' ,
+         '*.googleapis.com/' ,
+         '*googleapis.com/' ,
+         '*.jquery.com/' ,
+         '*.cloudflare.com/' ,
+         "*.google.com/" ,
      ] 
  } 
 Talisman(app, content_security_policy = csp)
