@@ -40,7 +40,7 @@ It was CS50
 
 
    1. Check that you have Node version 8+
-   2. Clone the code: git clone https://github.com/RokasDie/cs50-final-project.git
+   2. Clone the code: `git clone https://github.com/kroos783/bld-devs.git`
    3. Run command prompt in the folder and run npm install to install all dependencies
    4. Once installed run command npm start
    5. In your browser go to localhost:3000
