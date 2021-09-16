@@ -5,13 +5,15 @@ The project is a webpage where teachers can create assignments for students. The
 
 Technologies used:
 
-    Node JS
-    Express JS
-    bcryptjs
-    passport
-    sqlite3
-    ejs
-    other small libraries or packages
+   * Python 3.9
+   * Flask
+   * Flask-wtf
+   * Flask-Mail
+   * Flask-Talisman
+   * wtforms
+   * HTML5
+   * CSS
+   * JavaScript
 
 
 # Stages of construction
