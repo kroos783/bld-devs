@@ -1,6 +1,18 @@
 # BLD Devs
-#### Video Demo:  https://youtu.be/3mJlRzyqeNk
-#### Description:
+###### Video Demo:  https://youtu.be/3mJlRzyqeNk
+
+The project is a webpage where teachers can create assignments for students. The implementation is fairly simple, to keep the project scope in check. I wanted to make a project like this to expand my knowledge of Node JS and of techniques like buffer piping from database to client, role based authentications, etc.
+
+Technologies used:
+
+    Node JS
+    Express JS
+    bcryptjs
+    passport
+    sqlite3
+    ejs
+    other small libraries or packages
+
 
 # Stages of construction
 
