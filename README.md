@@ -34,3 +34,13 @@ Thanks for reading me,
 Goodbye, :hugs:
 
 It was CS50
+
+
+How to launch application
+
+    1. Check that you have Node version 8+
+    2. Clone the code: git clone https://github.com/RokasDie/cs50-final-project.git
+    Run command prompt in the folder and run npm install to install all dependencies
+    Once installed run command npm start
+    In your browser go to localhost:3000
+    You are ready to go!
