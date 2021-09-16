@@ -730,3 +730,40 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a29ca9', end
  }
 
 /* fin css bouton contact */
+
+/* début css mentions légales */
+
+  @media (min-width: 769px){
+	.mentionslegales{
+	position: relative;
+	margin: 5%;
+	color: white;
+	opacity: 0.75;
+	font-size: small;
+	}
+  }
+
+  @media (max-width: 769px){
+	.mentionslegales{
+	position: relative;
+	color: white;
+	opacity: 0.75;
+	font-size: x-small;
+	}
+  }
+
+  @media (min-width: 769px){
+	.mentionslegales h3{
+	margin-top: 40px;
+	font-size: x-large;
+	}
+  }
+
+  @media (max-width: 769px){
+	.mentionslegales h3{
+	margin-top: 40px;
+	font-size: small;
+	}
+  }
+
+/* Fin css mentions légales */
