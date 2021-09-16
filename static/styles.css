@@ -567,7 +567,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a29ca9', end
 	.titlePage
     {
 	  color: aliceblue;
-	  font-family: 'Fredoka One', cursive;
+	  font-family: 'Saira Condensed', sans-serif;
 	  font-size: 28px;
 	  margin-bottom: 15%;
 	  text-align: center;
@@ -581,7 +581,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a29ca9', end
   	.titlePage
     {
 	  color: aliceblue;
-	  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	  font-family: 'Saira Condensed', sans-serif;
 	  font-size: 45px;
 	  margin-bottom: 2vmax;
 	  text-align: center;

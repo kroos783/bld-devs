@@ -17,7 +17,7 @@ mail = Mail()
 app = Flask(__name__)
 
 
-"""csp  = { 
+csp  = { 
      'default-src' : [ 
          "'unsafe-inline'" , 
          '*.gstatic.com/' ,
@@ -33,7 +33,7 @@ app = Flask(__name__)
          '*.memegen.link/*.imgur.com/'
      ] 
  } 
-Talisman(app, content_security_policy = csp)"""
+Talisman(app, content_security_policy = csp)
 
 # Ensure templates are auto-reloaded
 app.config["TEMPLATES_AUTO_RELOAD"] = True
