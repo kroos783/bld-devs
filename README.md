@@ -2,7 +2,7 @@
 #### Video Demo:  https://youtu.be/3mJlRzyqeNk
 #### Description:
 
-# Message for CS50
+# Stages of construction
 
 Hello everybody,
 
