@@ -673,7 +673,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a29ca9', end
 	}
   }
 
-  @media (max-width:769px)
+  @media (max-width:769px) and (min-width: 416px)
   {
 	.recaptchaSize{
 		transform: scale(67%);
@@ -688,6 +688,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a29ca9', end
   {
 	.recaptchaSize{
 		
+	}
+  }  
+
+  @media (max-width:415px)
+  {
+	.recaptchaSize{
+		transform: scale(60%);
+		display: flex;
+		justify-content: center;
+		margin-top: 5%;
+		margin-bottom: 45px;
 	}
   }  
 	  
@@ -709,7 +720,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a29ca9', end
 
 /* début css bouton contact*/
 
-.btn-grad {background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5  51%, #00d2ff  100%)}
+.btn-grad {background-image: linear-gradient(to right, #15cfff 0%, #00d09c  51%, #15cfff  100%)}
 .btn-grad {
    padding: 0px 15px;
    text-align: center;

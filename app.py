@@ -17,7 +17,7 @@ mail = Mail()
 app = Flask(__name__)
 
 
-csp  = { 
+"""csp  = { 
      'default-src' : [ 
          "'unsafe-inline'" , 
          '*.gstatic.com/' ,
@@ -33,7 +33,7 @@ csp  = {
          '*.memegen.link/*.imgur.com/'
      ] 
  } 
-Talisman(app, content_security_policy = csp)
+Talisman(app, content_security_policy = csp)"""
 
 # Ensure templates are auto-reloaded
 app.config["TEMPLATES_AUTO_RELOAD"] = True
@@ -105,6 +105,14 @@ def diplomes():
 @app.route("/mentionslegales")
 def mentionslegales():
         return render_template("mentionslegales.html")
+
+@app.route("/experiences")
+def experiences():
+        return render_template("experiences.html")
+
+@app.route("/aboutme")
+def aboutme():
+        return render_template("aboutme.html")
 
 def errorhandler(e):
     """Handle error"""
