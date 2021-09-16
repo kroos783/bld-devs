@@ -98,9 +98,17 @@ def portfolio():
         return render_template("portfolio.html")
 
 
+@app.route("/aboutme")
+def aboutme():
+        return render_template("aboutme.html")
+
 @app.route("/diplomes")
 def diplomes():
         return render_template("diplomes.html") 
+
+@app.route("/experiences")
+def experiences():
+        return render_template("experiences.html")  
 
 @app.route("/mentionslegales")
 def mentionslegales():
