@@ -1,7 +1,7 @@
 # BLD Devs
 ###### Video Demo:  https://youtu.be/3mJlRzyqeNk
 
-The project is a webpage where teachers can create assignments for students. The implementation is fairly simple, to keep the project scope in check. I wanted to make a project like this to expand my knowledge of Node JS and of techniques like buffer piping from database to client, role based authentications, etc.
+The project is a personal web page where I expose my professional background. The implementation is simple enough, to keep the scope of the project under control. I wanted to do a project like this to broaden my knowledge of Python and techniques like integrating JavaScript scripting, algorithms in python, etc.
 
 Technologies used:
 
