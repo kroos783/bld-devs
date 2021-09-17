@@ -33,7 +33,7 @@ csp  = {
          '*.memegen.link/*.imgur.com/'
      ] 
  } 
-Talisman(app, apology, content_security_policy = csp)
+Talisman(app, content_security_policy = csp)
 
 # Ensure templates are auto-reloaded
 app.config["TEMPLATES_AUTO_RELOAD"] = True
