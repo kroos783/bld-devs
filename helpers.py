@@ -3,7 +3,6 @@ import urllib.parse
 
 from flask import redirect, render_template, request, session
 from functools import wraps
-from app import csp
 
 
 def apology(message, code=400):
