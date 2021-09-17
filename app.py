@@ -10,14 +10,15 @@ from flask_mail import Mail, Message
 
 from form_contact import ContactForm, csrf
 from flask_talisman import Talisman
+from flask_sitemap import Sitemap
 
 mail = Mail()
 
 # Configure application
-app = Flask(__name__, static_folder='static', static_url_path='')
+app = Flask(__name__)
+ext = Sitemap(app=app)
 
-
-csp  = { 
+"""csp  = { 
      'default-src' : [ 
          "'unsafe-inline'" , 
          '*.gstatic.com/' ,
@@ -33,7 +34,7 @@ csp  = {
          '*.memegen.link/*.imgur.com/'
      ] 
  } 
-Talisman(app, content_security_policy = csp)
+Talisman(app, content_security_policy = csp)"""
 
 # Ensure templates are auto-reloaded
 app.config["TEMPLATES_AUTO_RELOAD"] = True
@@ -62,6 +63,10 @@ def index():
     """Show index page"""
     return render_template("index.html")
 
+@ext.register_generator
+def index():
+    # Not needed if you set SITEMAP_INCLUDE_RULES_WITHOUT_PARAMS=True
+    yield 'index', {}
 
 @app.route('/contact', methods=['POST', 'GET'])
 def contact():
@@ -113,6 +118,7 @@ def experiences():
 @app.route("/aboutme")
 def aboutme():
         return render_template("aboutme.html")
+
 
 def errorhandler(e):
     """Handle error"""
