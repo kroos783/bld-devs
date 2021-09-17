@@ -14,7 +14,7 @@ from flask_talisman import Talisman
 mail = Mail()
 
 # Configure application
-app = Flask(__name__)
+app = Flask(__name__, static_folder='static', static_url_path='')
 
 
 csp  = { 
