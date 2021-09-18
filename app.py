@@ -10,12 +10,13 @@ from flask_mail import Mail, Message
 
 from form_contact import ContactForm, csrf
 from flask_talisman import Talisman
+from flask_sitemap import Sitemap
 
 mail = Mail()
 
 # Configure application
 app = Flask(__name__)
-
+ext = Sitemap(app=app)
 
 csp  = { 
      'default-src' : [ 
@@ -62,7 +63,6 @@ def index():
     """Show index page"""
     return render_template("index.html")
 
-
 @app.route('/contact', methods=['POST', 'GET'])
 def contact():
     form = ContactForm()
@@ -98,21 +98,33 @@ def portfolio():
         return render_template("portfolio.html")
 
 
-@app.route("/aboutme")
-def aboutme():
-        return render_template("aboutme.html")
-
 @app.route("/diplomes")
 def diplomes():
         return render_template("diplomes.html") 
 
-@app.route("/experiences")
-def experiences():
-        return render_template("experiences.html")  
-
 @app.route("/mentionslegales")
 def mentionslegales():
         return render_template("mentionslegales.html")
+
+@app.route("/experiences")
+def experiences():
+        return render_template("experiences.html")
+
+@app.route("/aboutme")
+def aboutme():
+        return render_template("aboutme.html")
+
+@ext.register_generator
+def sitemap():
+    # Not needed if you set SITEMAP_INCLUDE_RULES_WITHOUT_PARAMS=True
+    yield 'index', {}
+    yield 'contact', {}
+    yield 'aboutme', {}
+    yield 'portfolio', {}
+    yield 'diplomes', {}    
+    yield 'experiences', {}
+    yield 'mentionslegales', {}
+    
 
 def errorhandler(e):
     """Handle error"""

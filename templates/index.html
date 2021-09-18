@@ -1,7 +1,15 @@
 {% extends "layout.html" %}
 
+{% block meta_description %}
+Création de site design à des prix abordables. Devis en ligne GRATUIT. Jeune développeur web disponible pour vos besoins. N'hesitez pas à remplir le formulaire de contact !
+{% endblock %}
+
+{% block meta %}
+<meta name="google-site-verification" content="BnRL-7EYNuXYY6KTeDzSaXfueSFVgNKZmycz161Sebc" />
+{% endblock %}
+
 {% block title %}
-    Homepage
+    Développeur web | Devis gratuit sous 48h maximum
 {% endblock %}
 
 {% block main %}
@@ -23,7 +31,7 @@
 		<button>
 			<span>
 				<span>
-					<span data-attr-span="🚀">
+					<span data-attr-span="🚀" onclick="window.location='/aboutme'">
 						plus d'informations
 					</span>
 				</span>
