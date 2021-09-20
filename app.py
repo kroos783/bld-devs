@@ -92,6 +92,11 @@ def send_message(message):
             html = render_template('email.html')
     )  
     mail.send(msg)
+    msgClient = Message("BLD Devs - Votre message à bien été reçu",
+            recipients = ['email'],
+            html = render_template('emailClient.html')
+    )  
+    mail.send(msgClient)
 
 @app.route("/portfolio")
 def portfolio():
