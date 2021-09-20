@@ -678,8 +678,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a29ca9', end
 	.recaptchaSize{
 		transform:scale(0.67);
 		-webkit-transform:scal(0.67);
-		transform-origin:0 0;
-		-webkit-transform-origin:0 0;
+		transform-origin:50% 50%;
+		-webkit-transform-origin:50% 50%;
 		display: flex;
 		justify-content: center;
 		margin-top: 5%;
