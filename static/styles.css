@@ -673,6 +673,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a29ca9', end
 	}
   }
 
+  @media (max-width:415px)
+  {
+	.recaptchaSize{
+		transform: scale(50%);
+		display: flex;
+		justify-content: center;
+		margin-top: 5%;
+		margin-bottom: 45px;
+	}
+  }  
+
   @media (max-width:769px) and (min-width: 416px)
   {
 	.recaptchaSize{
@@ -688,17 +699,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a29ca9', end
   {
 	.recaptchaSize{
 		
-	}
-  }  
-
-  @media (max-width:415px)
-  {
-	.recaptchaSize{
-		transform: scale(50%);
-		display: flex;
-		justify-content: center;
-		margin-top: 5%;
-		margin-bottom: 45px;
 	}
   }  
 	  
