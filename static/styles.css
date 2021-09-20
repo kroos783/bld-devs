@@ -690,10 +690,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a29ca9', end
   @media (max-width:769px) and (min-width: 416px)
   {
 	.recaptchaSize{
-		transform:scale(0.67);
-		-webkit-transform:scal(0.67);
-		transform-origin:0 0;
-		-webkit-transform-origin:0 0;
+		transform:scale(0.80);
+		-webkit-transform:scal(0.80);
+		transform-origin:50% 50%;
+		-webkit-transform-origin:50% 50%;
 		display: flex;
 		justify-content: center;
 		margin-top: 5%;
