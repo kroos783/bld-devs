@@ -1,6 +1,6 @@
 import os
 
-from flask import Flask, flash, redirect, render_template, request
+from flask import Flask, flash, redirect, render_template, request, send_from_directory
 from tempfile import mkdtemp
 from werkzeug.exceptions import default_exceptions, HTTPException, InternalServerError
 from datetime import datetime
@@ -16,9 +16,8 @@ mail = Mail()
 
 # Configure application
 app = Flask(__name__)
-ext = Sitemap(app=app)
 
-csp  = { 
+'''csp  = { 
      'default-src' : [ 
          "'unsafe-inline'" , 
          '*.gstatic.com/' ,
@@ -34,7 +33,7 @@ csp  = {
          '*.memegen.link/*.imgur.com/'
      ] 
  } 
-Talisman(app, content_security_policy = csp)
+Talisman(app, content_security_policy = csp)'''
 
 # Ensure templates are auto-reloaded
 app.config["TEMPLATES_AUTO_RELOAD"] = True
@@ -82,7 +81,7 @@ def contact():
 
 @app.route('/success')
 def success():
-    return render_template('index.html')
+    return render_template('index.html', success=success)
 
 def send_message(message):
     print(message.get('name'))
@@ -122,17 +121,10 @@ def experiences():
 def aboutme():
         return render_template("aboutme.html")
 
-@ext.register_generator
-def sitemap():
-    # Not needed if you set SITEMAP_INCLUDE_RULES_WITHOUT_PARAMS=True
-    yield 'index', {}
-    yield 'contact', {}
-    yield 'aboutme', {}
-    yield 'portfolio', {}
-    yield 'diplomes', {}    
-    yield 'experiences', {}
-    yield 'mentionslegales', {}
-    
+@app.route('/robots.txt')
+@app.route('/sitemap.xml')
+def static_from_root():
+    return send_from_directory(app.static_folder, request.path[1:])
 
 def errorhandler(e):
     """Handle error"""
