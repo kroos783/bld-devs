@@ -1,8 +1,3 @@
 User-agent: *
-Disallow: /aboutme.html
-Disallow: /mentionslegales.html
-Disallow: /portfolio.html
-Disallow: /diplomes.html
-Disallow: /experiences.html
 
 Sitemap: https://www.bld-devs.com/sitemap.xml
