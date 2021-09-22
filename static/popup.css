@@ -1,0 +1,137 @@
+@media (min-width: 769px){
+	.wrap {
+	  display: flex;
+	  justify-content: center;
+	  
+	}
+	}
+  
+  @media (max-width: 769px){
+  .wrap {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+  }
+  }
+
+  @media (min-width:769px) {
+  .modal {
+	background-color: #fff;
+	padding: 2em 3em;
+	text-align: center;
+	border-radius: .5em;
+	display: none;
+	width: 410px;
+	height: 380px;
+	opacity: 0.90;
+  }
+  }
+
+  @media (max-width:769px) {
+	.modal {
+	  background-color: #fff;
+	  padding: 2em 3em;
+	  text-align: center;
+	  border-radius: .5em;
+	  display: none;
+	  width: 290px;
+	  height: 450px;
+	  opacity: 0.90;
+	}
+  }
+
+  @media (min-width:769px) {
+  .modal.is-active {
+	display: block;
+	position: fixed;
+	margin: 5% auto; /* Will not center vertically and won't work in IE6/7. */
+	left: 0;
+	right: 0;
+  }
+  }
+
+  @media (max-width:769px) {
+	.modal.is-active {
+	  display: block;
+	  position: fixed;
+	  margin: 20% auto; /* Will not center vertically and won't work in IE6/7. */
+	  left: 0;
+	  right: 0;
+	}
+  }
+  
+  .modal-image {
+	width: 40px;
+	height: 40px;
+	margin: 0 auto;
+	border-radius: 50%;
+	box-shadow: 0 0 0 2px #48DB71;
+	padding: 11px 10px 2px;
+	margin-bottom: 2em;
+  }
+  
+  .modal h1 {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-bottom: .5em;
+  }
+  
+  .modal p {
+	margin-bottom: 2em;
+	color: #666;
+  }
+  
+  .btn-open {
+	display: none;
+  }
+  .btn-open.is-active {
+	display: block;
+  }
+  
+  .buttonPopUp {
+	font-size: 1.25em;
+	font-weight: bold;
+	background-color: rgba(255, 255, 255, 0);
+	border: none;
+	color: #ffffff;
+	box-shadow: 0 0 0 2px #00d09c inset;
+	border-radius: .25em;
+	padding: 10px;
+	cursor: pointer;
+	-webkit-transition: background .4s ease, color .4s ease;
+	transition: background .4s ease, color .4s ease;
+	position: absolute;
+  }
+  .buttonPopUp:hover {
+	box-shadow: 0 0 0 2px #15cfff inset;
+	color: rgb(255, 255, 255);
+	background-color: transparent;
+  }
+
+  .buttonClosePopUp {
+	font-size: 1.25em;
+	font-weight: bold;
+	background-color: rgba(255, 255, 255, 0);
+	border: none;
+	color: #000000;
+	box-shadow: 0 0 0 2px #ffffff00 inset;
+	border-radius: .25em;
+	padding: 10px;
+	cursor: pointer;
+	-webkit-transition: background .4s ease, color .4s ease;
+	transition: background .4s ease, color .4s ease;
+	position: relative;
+  }
+  .buttonClosePopUp:hover {
+	box-shadow: 0 0 0 2px rgba(255, 255, 255, 0) inset;
+	color: rgb(0, 0, 0);
+	background-color: transparent;
+  }
+
+  .buttonPopUp img {
+	  width: 30px;
+  }
+
+  .buttonClosePopUp img {
+	width: 60px;
+}  
