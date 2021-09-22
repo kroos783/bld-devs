@@ -54,7 +54,6 @@ main img
   border-radius: 50% 20% / 10% 40%;
   width: 9em;
   height: auto;
-  opacity: 0.76;
   align-items: center;
   }
 }
@@ -65,7 +64,6 @@ main img
     border-radius: 50% 20% / 10% 40%;
     width: 7em;
     height: auto;
-    opacity: 0.76;
 	align-items: center;
 	}
 }
@@ -76,7 +74,6 @@ main img
     border-radius: 50% 20% / 10% 40%;
     max-width: 8em;
     height: auto;
-    opacity: 0.76;
 	align-items: center;
 	}
 }
@@ -295,7 +292,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a29ca9', end
 	z-index: 10;
 	border-radius: 50%;
 	margin-top: 10%;
-	opacity: 0.8;
+	opacity: 0.95;
 	justify-self: center;
 }
 
@@ -736,7 +733,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a29ca9', end
    box-shadow: 0 0 20px #eee;
    border-radius: 10px;
    display: block;
-   opacity: 0.90;
+   opacity: 0.95;
  }
 
  .btn-grad:hover {
@@ -754,7 +751,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a29ca9', end
 	position: relative;
 	margin: 5%;
 	color: white;
-	opacity: 0.75;
+	opacity: 0.85;
 	font-size: small;
 	}
   }
@@ -763,7 +760,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a29ca9', end
 	.mentionslegales{
 	position: relative;
 	color: white;
-	opacity: 0.75;
+	opacity: 0.85;
 	font-size: x-small;
 	}
   }
