@@ -12,10 +12,10 @@ from form_contact import ContactForm, csrf
 from flask_talisman import Talisman
 from flask_sitemap import Sitemap
 
-mail = Mail()
 
 # Configure application
 app = Flask(__name__)
+mail = Mail()
 
 csp  = { 
      'default-src' : [ 
@@ -49,6 +49,7 @@ app.config['MAIL_USERNAME'] = 'bld.devs@gmail.com'
 app.config['MAIL_PASSWORD'] = 'Auto78310'
 app.config['MAIL_USE_SSL'] = True
 app.config['MAIL_DEBUG'] = True
+app.config['MAIL_DEFAULT_SENDER'] = 'bld.devs@gmail.com'
 
 app.config['RECAPTCHA_USE_SSL']= False
 app.config['RECAPTCHA_PUBLIC_KEY']='6LeIwmgcAAAAAIqzcLYo9AjypZn8nCJ2sUKzqaDz'
