@@ -92,4 +92,6 @@ btnOpen.addEventListener('click', function(e) {
 // Open nav when clicking sandwich button
 btnClose.addEventListener('click', function(e) {
   hideModal();
+  dynamics.setTimeout(toggleClasses, 500);
+  dynamics.setTimeout(showBtn, 500);
 });
