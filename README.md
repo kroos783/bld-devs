@@ -1,5 +1,4 @@
 # BLD Devs
-###### Video Demo:  https://youtu.be/3mJlRzyqeNk
 
 The project is a personal web page where I expose my professional background. The implementation is simple enough, to keep the scope of the project under control. I wanted to do a project like this to broaden my knowledge of Python and techniques like integrating JavaScript scripting, algorithms in python, etc.
 
